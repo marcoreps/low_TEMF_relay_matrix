@@ -1,0 +1,8161 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "21e2ef9b-a261-4ffc-a12a-8900eac1c780")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Diode:BAV99"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Relay:G6KU-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at 16.51 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "G6KU-2"
+				(at 16.51 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*Y*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "G6KU-2_0_0"
+				(text "S:+"
+					(at -8.763 2.794 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "R:+"
+					(at -8.763 -2.794 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "G6KU-2_0_1"
+				(rectangle
+					(start -15.24 5.08)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -13.335 1.905)
+					(end -6.985 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 -1.905) (xy -7.62 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 0) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0) (xy 8.89 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.255 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "G6KU-2_1_1"
+				(pin passive line
+					(at -10.16 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 57.15 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0221bd30-acaa-4e62-8c21-e0a6a0eeab63")
+	)
+	(junction
+		(at 38.1 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06034fff-f3e3-4b78-bd11-53cfc15badd4")
+	)
+	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "087aa3c5-86b6-4161-8a0e-66eba365e634")
+	)
+	(junction
+		(at 111.76 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09499c2d-1f62-4fea-8d04-969e4359f0b0")
+	)
+	(junction
+		(at 38.1 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09ec6d59-c54a-4490-b407-ff160a0aa360")
+	)
+	(junction
+		(at 57.15 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10b8c1b5-fca9-4c95-8d97-3e7f498aa76c")
+	)
+	(junction
+		(at 107.95 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f26bc2-ce63-4fea-a785-d717c83f8c67")
+	)
+	(junction
+		(at 167.64 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c25df5d-5e21-4266-b5f3-bd0d35d8a351")
+	)
+	(junction
+		(at 181.61 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb64ff5-6b40-4f31-8a90-8f7b05178bea")
+	)
+	(junction
+		(at 57.15 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d3d1db1-53f9-4f4e-97cb-31ac7e0e11a6")
+	)
+	(junction
+		(at 181.61 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b756eb-891f-440e-95ac-cfede3aa0336")
+	)
+	(junction
+		(at 111.76 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "232e5634-d208-4969-9ee9-f653b35d31d3")
+	)
+	(junction
+		(at 67.31 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2333ae60-78c2-427a-9bbd-0c5089cb7674")
+	)
+	(junction
+		(at 130.81 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c01d5c4-13a1-4940-9fe6-f9df95ac270e")
+	)
+	(junction
+		(at 74.93 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2de0651b-8d3f-44d6-9c32-b50cfa6e5489")
+	)
+	(junction
+		(at 57.15 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eaaec05-5e01-4958-bc1d-9e487976b73d")
+	)
+	(junction
+		(at 148.59 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fb79e54-d8e7-4d63-9b5f-9960e4be802c")
+	)
+	(junction
+		(at 181.61 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38df54ce-19cd-4403-8974-99edd8423831")
+	)
+	(junction
+		(at 74.93 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d5f576a-2fd7-47ea-93c2-45c4ee7fa0bc")
+	)
+	(junction
+		(at 111.76 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f572b0d-18c8-4838-b602-6d937f4ab2bc")
+	)
+	(junction
+		(at 130.81 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4118a25e-cccd-480f-926c-41fea3756e8d")
+	)
+	(junction
+		(at 38.1 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423316e8-4d7f-40fc-a8e7-6dcba1350bd2")
+	)
+	(junction
+		(at 71.12 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4341f0d0-b143-4488-85bd-2d1fff1af141")
+	)
+	(junction
+		(at 167.64 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4499e048-3a89-4631-b99a-d78646b0fc05")
+	)
+	(junction
+		(at 167.64 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45978d40-a21d-4887-8288-36e61b1bfbe4")
+	)
+	(junction
+		(at 111.76 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "489fb53c-70dd-4152-81a3-d01fcae9e6bd")
+	)
+	(junction
+		(at 107.95 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49ba707d-966f-4e47-8a14-175bdf02e65b")
+	)
+	(junction
+		(at 111.76 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49f1fbe0-7e1a-4a46-b2e1-45f8957522d6")
+	)
+	(junction
+		(at 38.1 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bf3b92a-f9eb-4f8d-bf19-c71b3d0e0535")
+	)
+	(junction
+		(at 104.14 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c041dad-7cbf-4c3f-ad63-22f9b005e0b1")
+	)
+	(junction
+		(at 93.98 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd84972-8c3c-404e-8475-6e3b2526fe71")
+	)
+	(junction
+		(at 177.8 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50cadf82-6f01-4699-bedd-f8f502f844e1")
+	)
+	(junction
+		(at 130.81 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f6c9d1-a820-4cc6-a2cb-24d15c12ff38")
+	)
+	(junction
+		(at 74.93 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54faf89c-6ff6-473e-a047-d082d3113861")
+	)
+	(junction
+		(at 167.64 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58e91737-28e8-416c-b2a9-e68970100a56")
+	)
+	(junction
+		(at 111.76 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d94ff07-f121-4ea5-be7c-9a4652859451")
+	)
+	(junction
+		(at 111.76 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b98405-3eba-4e8d-a22a-1ca9a2f9133d")
+	)
+	(junction
+		(at 71.12 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654a53a1-3193-4ba5-8e97-56d4aa6aeb6e")
+	)
+	(junction
+		(at 140.97 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d4e9b7-10fa-4292-a0be-20f939413349")
+	)
+	(junction
+		(at 111.76 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a5ac6c0-e347-440f-90bd-290822b4757a")
+	)
+	(junction
+		(at 74.93 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b34a53a-321e-4c40-bd5f-0f6d73434673")
+	)
+	(junction
+		(at 74.93 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7046ab17-5cf3-4afc-b5fb-dd00bcdbdf43")
+	)
+	(junction
+		(at 67.31 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "712ac972-c351-46ba-a71f-a056ac641a59")
+	)
+	(junction
+		(at 74.93 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ec3b8e-dbe0-4447-8aa2-3119600b11fa")
+	)
+	(junction
+		(at 38.1 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7385be96-a8ca-4752-9321-64b2e1346564")
+	)
+	(junction
+		(at 140.97 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792a381b-2709-4d38-ba33-b2df17487f21")
+	)
+	(junction
+		(at 38.1 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b724318-1d1f-4120-872a-abb5b1880755")
+	)
+	(junction
+		(at 104.14 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82265565-3940-439b-908c-d7f2bca5cc8c")
+	)
+	(junction
+		(at 74.93 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8257e1e8-66e3-42e0-85df-fb7056089ed5")
+	)
+	(junction
+		(at 130.81 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89a61334-9933-4210-ba6c-7e2e2f7bc339")
+	)
+	(junction
+		(at 104.14 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a1d38aa-887c-453f-9681-bbac34305e20")
+	)
+	(junction
+		(at 144.78 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a6c3c63-9498-48c5-8b4e-e159c417353e")
+	)
+	(junction
+		(at 130.81 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d4c8f2c-3506-47de-b2ce-8a3c1f5b44b7")
+	)
+	(junction
+		(at 38.1 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f6a85ad-8267-4488-8306-94d91c559d31")
+	)
+	(junction
+		(at 74.93 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92717f76-e9cd-4d1f-97b3-f94830fced8a")
+	)
+	(junction
+		(at 74.93 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9330f3f6-7c5a-496f-8c39-6951deb88b3e")
+	)
+	(junction
+		(at 130.81 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "951018d0-ad22-49da-8d8e-b083b8391725")
+	)
+	(junction
+		(at 38.1 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a10c4fb-4347-4810-9272-0efefdadcacf")
+	)
+	(junction
+		(at 107.95 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b317c41-b55a-4363-b4f4-77d3812db076")
+	)
+	(junction
+		(at 74.93 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce5c5b8-bc1f-422f-81fd-1db194ddd82a")
+	)
+	(junction
+		(at 111.76 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d0e8bcc-c528-44b7-980a-49f14973fa86")
+	)
+	(junction
+		(at 177.8 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d7396f8-8f08-4312-8ed5-5a1e3fa606bc")
+	)
+	(junction
+		(at 167.64 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a02d7a73-9114-4f1b-83bf-d3377a0f33a3")
+	)
+	(junction
+		(at 74.93 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aafc73e2-7f49-4e85-a487-b92378c9c5bc")
+	)
+	(junction
+		(at 177.8 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0da822a-261b-42c7-afa1-716dd265ec7c")
+	)
+	(junction
+		(at 130.81 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b9bf96-8389-4836-a437-a379359f340e")
+	)
+	(junction
+		(at 38.1 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb2e1a31-4681-46bf-ab60-77a6394928b0")
+	)
+	(junction
+		(at 111.76 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef1dd15-76ea-43af-a34a-ac9da27e5be7")
+	)
+	(junction
+		(at 57.15 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb5a8c97-8c3b-4a30-a7ab-b52d72e7e7c2")
+	)
+	(junction
+		(at 38.1 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdf7490c-b3ad-4e89-9f7d-bc01127e224e")
+	)
+	(junction
+		(at 38.1 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceceee83-67da-4587-8bc1-8a3471a6fab3")
+	)
+	(junction
+		(at 93.98 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0bc1274-0900-452e-a5d2-0d54182a81b2")
+	)
+	(junction
+		(at 74.93 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37db264-be35-4515-a48e-3a163ba5fec0")
+	)
+	(junction
+		(at 67.31 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4f6f43c-67b4-4cf3-9940-c8f196665ebb")
+	)
+	(junction
+		(at 71.12 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7bd1da9-cdab-4334-899c-1a31966eab0f")
+	)
+	(junction
+		(at 140.97 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9802129-3b7f-4b0a-80ef-988d87654ede")
+	)
+	(junction
+		(at 144.78 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf0c159-0193-433f-97e0-1c23f90bfb62")
+	)
+	(junction
+		(at 167.64 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc625153-e69d-4679-b5ac-1fad110bf172")
+	)
+	(junction
+		(at 93.98 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcb07ee9-eb8b-48b3-b132-9a140393e4cb")
+	)
+	(junction
+		(at 93.98 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e169d5ae-7468-4cf1-8268-a71510f9daf5")
+	)
+	(junction
+		(at 93.98 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1703b5b-d009-4599-b654-4faae3555791")
+	)
+	(junction
+		(at 93.98 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e18aa83c-e4d2-409a-9463-b0f8cc945e8e")
+	)
+	(junction
+		(at 93.98 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1adee01-7604-470c-b584-520019b17997")
+	)
+	(junction
+		(at 38.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e733d6dd-9987-4c5f-b6a3-f49c0f2fc448")
+	)
+	(junction
+		(at 111.76 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7a7643b-fed7-4881-89f4-1e64024ec7e5")
+	)
+	(junction
+		(at 148.59 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb02f44b-c5cc-494b-9b38-aba7bcc5cb28")
+	)
+	(junction
+		(at 111.76 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb04afc5-7b33-4444-8ba9-af08d73699c6")
+	)
+	(junction
+		(at 148.59 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb1f7777-6247-4129-b33c-d910df075b6c")
+	)
+	(junction
+		(at 57.15 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee490716-4282-4046-b791-80e6b6ec1a7d")
+	)
+	(junction
+		(at 148.59 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34580a2-3a80-4f58-ba66-fb1ebe81cdfa")
+	)
+	(junction
+		(at 167.64 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e739d0-b4c2-4049-889c-ae586dc62f99")
+	)
+	(junction
+		(at 57.15 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffa14369-271c-42e6-9184-37afa43c0719")
+	)
+	(no_connect
+		(at 151.13 168.91)
+		(uuid "0caa2964-f847-4515-8f36-c4a1bce02098")
+	)
+	(no_connect
+		(at 114.3 31.75)
+		(uuid "0ff199c3-8796-48e9-a8d9-38c5e29ba4f0")
+	)
+	(no_connect
+		(at 77.47 133.35)
+		(uuid "10b479d1-8c90-4ad9-beb7-fffe2a989d8b")
+	)
+	(no_connect
+		(at 114.3 41.91)
+		(uuid "139e2025-6108-47ec-9897-fe5effeefdc2")
+	)
+	(no_connect
+		(at 77.47 31.75)
+		(uuid "17a0ea63-f52d-4008-ac54-ce2ef17b4886")
+	)
+	(no_connect
+		(at 151.13 31.75)
+		(uuid "2c8039a1-b2d5-4a16-b476-e58ca49df74d")
+	)
+	(no_connect
+		(at 151.13 77.47)
+		(uuid "44c7752e-c089-4356-81f3-f6e6d47f7c6f")
+	)
+	(no_connect
+		(at 151.13 179.07)
+		(uuid "4bf2dc51-2d9b-4e72-a865-d67c5c3f7c91")
+	)
+	(no_connect
+		(at 40.64 31.75)
+		(uuid "4cf439c7-abe6-4385-ad90-31a2fc958833")
+	)
+	(no_connect
+		(at 40.64 41.91)
+		(uuid "53c0973b-2755-44e3-b281-c229aac7c1f4")
+	)
+	(no_connect
+		(at 77.47 41.91)
+		(uuid "5726765d-8368-42e6-a62f-c47f6d997fde")
+	)
+	(no_connect
+		(at 40.64 87.63)
+		(uuid "582ef043-41eb-4b1b-a88b-780217f96abb")
+	)
+	(no_connect
+		(at 114.3 77.47)
+		(uuid "5d7b3824-e50c-4697-94d1-ab84da0f79a1")
+	)
+	(no_connect
+		(at 114.3 87.63)
+		(uuid "6341eda2-7035-4096-84a9-5c0c76fb6657")
+	)
+	(no_connect
+		(at 114.3 133.35)
+		(uuid "65220ce4-1de6-422f-a2f2-ff5f7d4cf5fe")
+	)
+	(no_connect
+		(at 77.47 168.91)
+		(uuid "68cb180b-52b5-4d25-9223-562775ba3991")
+	)
+	(no_connect
+		(at 77.47 87.63)
+		(uuid "6b9354a5-9693-4d9b-bf46-5204ff351b31")
+	)
+	(no_connect
+		(at 151.13 87.63)
+		(uuid "718df6a2-705e-4e18-804c-d06af2422c7e")
+	)
+	(no_connect
+		(at 40.64 77.47)
+		(uuid "7e638471-86a7-4a8b-906d-98a21436d8fb")
+	)
+	(no_connect
+		(at 40.64 133.35)
+		(uuid "9e4d7693-3422-4ebe-9e03-11c7651615c4")
+	)
+	(no_connect
+		(at 40.64 179.07)
+		(uuid "a39d07ad-ebb9-4cc3-b303-63bb9ad992c7")
+	)
+	(no_connect
+		(at 114.3 123.19)
+		(uuid "a455353b-4dc6-4c6b-87b7-da768ebd30fe")
+	)
+	(no_connect
+		(at 114.3 168.91)
+		(uuid "a7295942-07e6-4667-8b3a-7029b8c060c8")
+	)
+	(no_connect
+		(at 77.47 179.07)
+		(uuid "afde50f3-c040-41cb-a168-e00414e86f36")
+	)
+	(no_connect
+		(at 151.13 123.19)
+		(uuid "bd309c7b-448d-40fb-9a99-2b4c861809ad")
+	)
+	(no_connect
+		(at 114.3 179.07)
+		(uuid "c39e56fe-d6ba-473d-9f25-556fca6abf61")
+	)
+	(no_connect
+		(at 151.13 133.35)
+		(uuid "c3c84f4a-cd4b-4d8f-88ff-71f36cb92d21")
+	)
+	(no_connect
+		(at 77.47 123.19)
+		(uuid "c8a1cafe-7985-49c6-9c07-320e652ff507")
+	)
+	(no_connect
+		(at 77.47 77.47)
+		(uuid "c9d62266-898e-4ed6-9c00-dbcd9401539b")
+	)
+	(no_connect
+		(at 151.13 41.91)
+		(uuid "d2ec0e25-4071-48db-a2a7-db13449965f8")
+	)
+	(no_connect
+		(at 40.64 168.91)
+		(uuid "d634272f-aff1-449a-87d3-3a39f89cb668")
+	)
+	(no_connect
+		(at 40.64 123.19)
+		(uuid "f2917ae0-77d7-424b-a371-b410ccb33002")
+	)
+	(wire
+		(pts
+			(xy 148.59 151.13) (xy 148.59 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0000cbd4-9a74-4ad6-9db1-c17fa56f67d2")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 55.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00baf62a-f659-462b-8914-3b1553ee2867")
+	)
+	(wire
+		(pts
+			(xy 38.1 163.83) (xy 38.1 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010db226-970b-4881-836f-df17193df3ff")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 166.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0154ff72-7579-4b50-a58f-fef5da742b3e")
+	)
+	(wire
+		(pts
+			(xy 148.59 163.83) (xy 148.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016fad17-a38a-4615-980a-0649c12e620d")
+	)
+	(wire
+		(pts
+			(xy 167.64 176.53) (xy 166.37 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b83078-3ca5-4280-b1ca-b45753418b37")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 130.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01fbd680-b756-4f06-b95b-61c42d3843c8")
+	)
+	(wire
+		(pts
+			(xy 67.31 148.59) (xy 67.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036d89bc-56a2-479a-9bee-4e34bc48a14f")
+	)
+	(wire
+		(pts
+			(xy 74.93 59.69) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039ef829-0293-4025-abee-e845393afaf1")
+	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 74.93 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05848254-6f21-4ec8-bda9-01bfde4603f1")
+	)
+	(wire
+		(pts
+			(xy 40.64 36.83) (xy 38.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0709a800-7698-4d41-8b9c-d956438b01f9")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f3a1ea-c5c5-4a4f-b432-efa16406873a")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f80abf-4130-4d3f-9395-1ec0095707f0")
+	)
+	(wire
+		(pts
+			(xy 114.3 82.55) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e088d6-134b-4cf4-b84d-ff0a7adabc82")
+	)
+	(wire
+		(pts
+			(xy 167.64 130.81) (xy 167.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad684a1-e6ac-43af-b390-b7a9039b7581")
+	)
+	(wire
+		(pts
+			(xy 74.93 163.83) (xy 77.47 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4827ee-21ec-40ea-88d6-43c8d3558c22")
+	)
+	(wire
+		(pts
+			(xy 71.12 179.07) (xy 71.12 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c854e8e-9d1f-4ad4-a084-cfb2ea03b040")
+	)
+	(wire
+		(pts
+			(xy 148.59 62.23) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfd32d8-b38e-44ed-be0d-61278aaed778")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1c9bc2-d80a-459e-9bd3-0f4e3de8c854")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9331c0-f69a-4d3e-a7c9-25312a82645c")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1a9ad5-7940-496e-b62b-563fd17f6b3d")
+	)
+	(wire
+		(pts
+			(xy 57.15 176.53) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106f8c1d-0fc1-4f8f-9a98-d1c65535ba61")
+	)
+	(wire
+		(pts
+			(xy 57.15 39.37) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1274435b-8a89-4f2c-bd9a-8feb02e6fed0")
+	)
+	(wire
+		(pts
+			(xy 130.81 85.09) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ce97eb-45f5-4203-b8bc-55bb244ac0ed")
+	)
+	(wire
+		(pts
+			(xy 38.1 118.11) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fae6ca-498f-49fa-bfc9-eb2868d73a43")
+	)
+	(wire
+		(pts
+			(xy 130.81 176.53) (xy 129.54 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ebbd0b-6b57-4014-8c97-571790569356")
+	)
+	(wire
+		(pts
+			(xy 138.43 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162d6d63-311e-452a-9229-f40cbfa010dd")
+	)
+	(wire
+		(pts
+			(xy 107.95 179.07) (xy 107.95 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163aeb22-129c-432f-8292-a8adf9a47299")
+	)
+	(wire
+		(pts
+			(xy 138.43 148.59) (xy 140.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181e86ea-61d9-421b-9722-db3623f644ff")
+	)
+	(wire
+		(pts
+			(xy 64.77 102.87) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ebe37f-192f-4409-a4a4-a1002f42caeb")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1990867b-7db6-49f2-adb7-64ced778f983")
+	)
+	(wire
+		(pts
+			(xy 64.77 179.07) (xy 71.12 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab61160-8cb7-463b-91b9-17345429d4b9")
+	)
+	(wire
+		(pts
+			(xy 175.26 194.31) (xy 177.8 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b47976b-9b65-4977-bbf3-d2c270dad841")
+	)
+	(wire
+		(pts
+			(xy 64.77 87.63) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eb83d7b-3af1-4ff1-a071-a3761f56de9b")
+	)
+	(wire
+		(pts
+			(xy 148.59 107.95) (xy 148.59 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2a67e7-fe9f-4046-884a-ce0b09f196d7")
+	)
+	(wire
+		(pts
+			(xy 36.83 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f31f1a0-f748-4977-aa9e-3b80b9a64965")
+	)
+	(wire
+		(pts
+			(xy 114.3 36.83) (xy 111.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21544fff-f002-440a-ab7b-700e8738b42a")
+	)
+	(wire
+		(pts
+			(xy 177.8 57.15) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216a4e06-32a8-4452-ab84-aa0ca99c8c15")
+	)
+	(wire
+		(pts
+			(xy 36.83 153.67) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d1d3e4-5ccc-46da-ad83-ba2a7b3574df")
+	)
+	(wire
+		(pts
+			(xy 181.61 41.91) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2237e9cd-5393-44dd-a8db-d2e6129e2517")
+	)
+	(wire
+		(pts
+			(xy 38.1 163.83) (xy 40.64 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229ca2a9-0300-4945-a656-12818b84f89c")
+	)
+	(wire
+		(pts
+			(xy 166.37 74.93) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "251037f8-4347-44eb-a638-78e85fad8797")
+	)
+	(wire
+		(pts
+			(xy 170.18 95.25) (xy 166.37 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f08b44-4921-4d7e-837f-a4cd9b04cf45")
+	)
+	(wire
+		(pts
+			(xy 111.76 49.53) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26facf16-063e-4642-96a6-820740b5f3d4")
+	)
+	(wire
+		(pts
+			(xy 166.37 29.21) (xy 167.64 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271f581a-1b4b-4ba9-b1f8-a887ff38c894")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2744d0fb-3a3f-4678-8233-05c2bfeddc94")
+	)
+	(wire
+		(pts
+			(xy 57.15 166.37) (xy 57.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27eed426-a17d-4e5c-ae40-5d9c39510a9e")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 71.12 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e7221a-1b65-4e4a-868b-8b1a7e6db768")
+	)
+	(wire
+		(pts
+			(xy 57.15 74.93) (xy 57.15 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ada490b-76ed-44c9-b710-2dd65d34aba1")
+	)
+	(wire
+		(pts
+			(xy 148.59 163.83) (xy 151.13 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0fd16b-38d4-488a-8087-b5095bdd06e8")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b90b4b7-a689-4d53-a3bd-9b1cfe96be3d")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2b7dce-04d9-42f1-a209-ed1ef08a9d4b")
+	)
+	(wire
+		(pts
+			(xy 93.98 29.21) (xy 93.98 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5f0417-61f2-4e60-a4b7-ef7f6204846b")
+	)
+	(wire
+		(pts
+			(xy 74.93 118.11) (xy 74.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da7be02-f230-4cdd-95a5-434d99f14920")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e87b1e8-4c28-4d47-ac7b-055a401eccdc")
+	)
+	(wire
+		(pts
+			(xy 74.93 105.41) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea159fa-46bf-41d6-89fe-887141a0d6ea")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 148.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326ed2f9-c7ba-4986-a25e-e7caf626ba38")
+	)
+	(wire
+		(pts
+			(xy 104.14 102.87) (xy 104.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dab5e6-55ab-4f22-af56-58907a812ca6")
+	)
+	(wire
+		(pts
+			(xy 111.76 151.13) (xy 148.59 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35be3d0a-2ec6-4f6e-8d2d-470eb04aa584")
+	)
+	(wire
+		(pts
+			(xy 111.76 59.69) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390a9c53-a416-40bb-ae33-b04c18449f17")
+	)
+	(wire
+		(pts
+			(xy 74.93 153.67) (xy 111.76 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a73f362-5f64-4b0b-8c7d-c34782c7595e")
+	)
+	(wire
+		(pts
+			(xy 64.77 133.35) (xy 71.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb57d84-bf17-457d-88cb-4d027cb2041c")
+	)
+	(wire
+		(pts
+			(xy 38.1 105.41) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1e8021-a3eb-4a03-ba0c-620b97ed52d6")
+	)
+	(wire
+		(pts
+			(xy 74.93 26.67) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccb0d57-1d58-4fcb-85f0-73ea712acb74")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 148.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e59a6da-c5cb-44b2-b0b1-51b0028595d9")
+	)
+	(wire
+		(pts
+			(xy 64.77 57.15) (xy 67.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff3f8f5-793b-4159-9270-7b8f1ef756dd")
+	)
+	(wire
+		(pts
+			(xy 92.71 74.93) (xy 93.98 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411e619f-9e9f-453c-bf3d-82331971a538")
+	)
+	(wire
+		(pts
+			(xy 40.64 186.69) (xy 38.1 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d3194c-0115-45b4-8015-4d6fc6f55cb6")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4609c9dd-7593-48f2-b7e2-b4f6fe6c5dd6")
+	)
+	(wire
+		(pts
+			(xy 144.78 179.07) (xy 144.78 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bcf95b-a3c2-4c58-9a44-50d0ed679305")
+	)
+	(wire
+		(pts
+			(xy 104.14 148.59) (xy 104.14 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4714d330-ad1e-4edd-87d7-733ccde3f5b5")
+	)
+	(wire
+		(pts
+			(xy 38.1 140.97) (xy 38.1 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48663c6c-1afc-43e6-9327-e485a481c569")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489a5e27-5b91-46f5-9d78-99b54d348386")
+	)
+	(wire
+		(pts
+			(xy 101.6 57.15) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48f7d20c-d4b8-4193-a395-8e7a750e7498")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a78d305-6c75-4892-b511-ac8a9c98c5cd")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1b9caf-a6f1-4819-925a-2fb3e45dc4bc")
+	)
+	(wire
+		(pts
+			(xy 35.56 186.69) (xy 38.1 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfca09f-47f1-4423-a74f-28c6302d58c6")
+	)
+	(wire
+		(pts
+			(xy 74.93 140.97) (xy 77.47 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3e318e-15c0-4801-8f19-83895d1b9e77")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.23) (xy 38.1 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fff5b9f-5f4b-4f06-ac11-5f7e3f2c0293")
+	)
+	(wire
+		(pts
+			(xy 177.8 148.59) (xy 177.8 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524fc16b-d3a6-4266-9428-43eb385eb10b")
+	)
+	(wire
+		(pts
+			(xy 130.81 29.21) (xy 133.35 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527063aa-8eb7-47e1-99ba-b1f05752993e")
+	)
+	(wire
+		(pts
+			(xy 74.93 49.53) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5302aaf2-38eb-4630-b384-ffcaa13b1c38")
+	)
+	(wire
+		(pts
+			(xy 64.77 194.31) (xy 67.31 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53309a15-18af-416d-947e-dca7ef5fcb9e")
+	)
+	(wire
+		(pts
+			(xy 111.76 26.67) (xy 111.76 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541ecf03-01be-495b-9786-538386c492f6")
+	)
+	(wire
+		(pts
+			(xy 111.76 196.85) (xy 148.59 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5482172f-577a-4573-a921-010c16094b64")
+	)
+	(wire
+		(pts
+			(xy 148.59 26.67) (xy 151.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5489d0e2-c264-45be-b940-ff1c497ae944")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a04e4e-68c6-4ae2-93b1-99637f4c534e")
+	)
+	(wire
+		(pts
+			(xy 175.26 41.91) (xy 181.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577a5041-5855-49d1-a034-367f4f3b2c7c")
+	)
+	(wire
+		(pts
+			(xy 111.76 163.83) (xy 111.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578204ae-6536-4c34-a20f-8e894277778e")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 166.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5797cf86-31d9-4238-8fe2-3a818f681cd5")
+	)
+	(wire
+		(pts
+			(xy 74.93 49.53) (xy 74.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f0eac5-f4ad-4719-89d2-4ec0c7a54d4a")
+	)
+	(wire
+		(pts
+			(xy 38.1 16.51) (xy 74.93 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be9df01-a9dc-427f-8c42-0218aa618094")
+	)
+	(wire
+		(pts
+			(xy 129.54 166.37) (xy 130.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9aded6-e226-4dd4-b263-0e902ba36b15")
+	)
+	(wire
+		(pts
+			(xy 130.81 166.37) (xy 130.81 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3f7375-2718-4d64-a29e-377ed6e8ba42")
+	)
+	(wire
+		(pts
+			(xy 57.15 130.81) (xy 57.15 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d8d5080-03de-4518-911b-3905016e8d4c")
+	)
+	(wire
+		(pts
+			(xy 57.15 85.09) (xy 57.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dafa853-b045-470d-a254-cb961e6a8d37")
+	)
+	(wire
+		(pts
+			(xy 57.15 120.65) (xy 57.15 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5deeae35-b092-4c22-a5b4-bd9324e2caf3")
+	)
+	(wire
+		(pts
+			(xy 175.26 179.07) (xy 181.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602f7440-339c-40cd-9737-82e9c2453334")
+	)
+	(wire
+		(pts
+			(xy 36.83 16.51) (xy 38.1 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "615f68c1-a5da-4622-9304-55ee40149753")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 104.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646532f8-d3f6-4872-b411-ed39c6584b8c")
+	)
+	(wire
+		(pts
+			(xy 74.93 186.69) (xy 74.93 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65331a8b-1c45-4281-af8a-7073daf38033")
+	)
+	(wire
+		(pts
+			(xy 175.26 57.15) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65988aab-1916-4d40-a852-8cd4b1322552")
+	)
+	(wire
+		(pts
+			(xy 101.6 102.87) (xy 104.14 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6673a04e-9efb-4fa0-b0ce-077469b99287")
+	)
+	(wire
+		(pts
+			(xy 67.31 102.87) (xy 67.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670f3808-4c39-4f9b-9983-c576e0efd170")
+	)
+	(wire
+		(pts
+			(xy 57.15 29.21) (xy 57.15 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6784314d-5117-4d92-9803-41c163be2039")
+	)
+	(wire
+		(pts
+			(xy 59.69 186.69) (xy 55.88 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67cd1553-7952-4998-8903-c76b4ba252de")
+	)
+	(wire
+		(pts
+			(xy 74.93 95.25) (xy 77.47 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "694fd826-7c8e-4ca3-bd0c-4b5633afd1bb")
+	)
+	(wire
+		(pts
+			(xy 74.93 186.69) (xy 77.47 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fb9b91-c8ee-4ff4-a959-b70b851a310f")
+	)
+	(wire
+		(pts
+			(xy 55.88 140.97) (xy 59.69 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3cd0e8-0218-4d12-89b1-4cce4cc254e3")
+	)
+	(wire
+		(pts
+			(xy 93.98 130.81) (xy 93.98 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b337106-6b64-466c-a0bd-60959f5b91e1")
+	)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 177.8 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b36e10a-4a51-4066-8d06-916017f04d9e")
+	)
+	(wire
+		(pts
+			(xy 177.8 194.31) (xy 177.8 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b72697e-4483-4edf-93c2-d2389ecde1ae")
+	)
+	(wire
+		(pts
+			(xy 74.93 95.25) (xy 74.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6bdb90-22ba-4740-883c-0f74037eb0e1")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e155436-b0b4-4fff-a4ee-dd91873ad89a")
+	)
+	(wire
+		(pts
+			(xy 40.64 49.53) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e211b44-6fdd-4eee-b3e1-d228d19b5ce9")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e591e6c-fe92-4dd6-8671-97ab1794a77b")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7051c1e1-23dd-4e90-8367-565dd90a6adc")
+	)
+	(wire
+		(pts
+			(xy 59.69 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707bae94-958b-41e1-893a-11579c7ffc93")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 92.71 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c53bd5-31d0-4483-9dba-5baec0d64676")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73453bc5-735b-4fcc-a4b1-0b09e483e1e5")
+	)
+	(wire
+		(pts
+			(xy 107.95 133.35) (xy 107.95 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d74cfe-fa54-4dbe-86c5-8adf011f4d11")
+	)
+	(wire
+		(pts
+			(xy 38.1 26.67) (xy 38.1 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753e8b07-8c8b-48da-bd08-bd836707b3bc")
+	)
+	(wire
+		(pts
+			(xy 93.98 166.37) (xy 93.98 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "766de945-439c-4e4e-a99c-d7406518024f")
+	)
+	(wire
+		(pts
+			(xy 151.13 173.99) (xy 148.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7779490b-8a64-44d6-8b2f-78c8f689f775")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a24fb9-d472-47ca-a175-76e8c0041c99")
+	)
+	(wire
+		(pts
+			(xy 92.71 140.97) (xy 96.52 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a0f3a9a-e722-4b8c-b56c-b24b7da3cff0")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a820f46-9747-4ccc-96b3-7655f3719055")
+	)
+	(wire
+		(pts
+			(xy 133.35 186.69) (xy 129.54 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8517da-152a-4ed6-87fc-ed6e0a5d7c86")
+	)
+	(wire
+		(pts
+			(xy 130.81 39.37) (xy 129.54 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c23f33a-eb9d-4de7-9244-e574076804eb")
+	)
+	(wire
+		(pts
+			(xy 129.54 140.97) (xy 133.35 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4b6c32-fd01-424b-9b06-6f6ce29d3e76")
+	)
+	(wire
+		(pts
+			(xy 167.64 85.09) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c98c0c5-865a-49dc-a03e-e0ecd950f24a")
+	)
+	(wire
+		(pts
+			(xy 144.78 133.35) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eee3b35-c5be-4b0c-9af2-4ce1eb2f81df")
+	)
+	(wire
+		(pts
+			(xy 148.59 16.51) (xy 148.59 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef9a7f3-aca8-4e3a-ba14-be7af2a1a1f8")
+	)
+	(wire
+		(pts
+			(xy 38.1 59.69) (xy 74.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f433283-1567-4454-b21f-117640879898")
+	)
+	(wire
+		(pts
+			(xy 114.3 173.99) (xy 111.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7d44fa-109f-4035-a3f8-c8acf249400b")
+	)
+	(wire
+		(pts
+			(xy 101.6 87.63) (xy 107.95 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f81b6c3-f911-4f6f-8d15-dae528e23ba6")
+	)
+	(wire
+		(pts
+			(xy 93.98 29.21) (xy 96.52 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe6d2b0-a78d-4977-b2c5-55b7661b8b0f")
+	)
+	(wire
+		(pts
+			(xy 111.76 62.23) (xy 148.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8028b14f-4e76-4aef-88bf-b0254da53799")
+	)
+	(wire
+		(pts
+			(xy 111.76 163.83) (xy 114.3 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81af94ef-0e1b-494c-886b-c57447683d20")
+	)
+	(wire
+		(pts
+			(xy 111.76 186.69) (xy 114.3 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ab416e-3566-4ea4-8a09-f70fc3434beb")
+	)
+	(wire
+		(pts
+			(xy 138.43 41.91) (xy 144.78 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c9395c-8076-46b0-a5b3-786343994817")
+	)
+	(wire
+		(pts
+			(xy 148.59 105.41) (xy 148.59 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862a837a-d3b3-43a7-8bc1-37d3cc5a5d33")
+	)
+	(wire
+		(pts
+			(xy 148.59 26.67) (xy 148.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8795317b-0b2b-4d31-8787-ddb1a4381b6b")
+	)
+	(wire
+		(pts
+			(xy 151.13 36.83) (xy 148.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887e72d2-4c23-48d9-a538-c2be49a4207e")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd38212-0aa4-4700-856d-ccdd1262b58d")
+	)
+	(wire
+		(pts
+			(xy 181.61 87.63) (xy 181.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be92825-d925-4cce-9532-e63b918790d8")
+	)
+	(wire
+		(pts
+			(xy 167.64 29.21) (xy 167.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6e6b33-c2e6-4802-bc6a-e5c165bc4d26")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 111.76 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d028e25-2f55-4910-882b-f1c97c6d55e5")
+	)
+	(wire
+		(pts
+			(xy 38.1 153.67) (xy 38.1 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dafbfcf-d207-4cb3-b0ac-a5227d287d0b")
+	)
+	(wire
+		(pts
+			(xy 166.37 166.37) (xy 167.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e76f20d-89f4-4e0b-ba5c-ad584f22a05f")
+	)
+	(wire
+		(pts
+			(xy 175.26 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e8b572-d5b7-42dd-98e4-740996b714c8")
+	)
+	(wire
+		(pts
+			(xy 71.12 87.63) (xy 71.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9371a988-dc6a-460f-8007-82c51aa69fe0")
+	)
+	(wire
+		(pts
+			(xy 148.59 95.25) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "951f61ed-6448-41b0-b15f-933afe07a2a0")
+	)
+	(wire
+		(pts
+			(xy 38.1 16.51) (xy 38.1 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96adff2b-b4d4-457a-bc42-9e5676aee3d7")
+	)
+	(wire
+		(pts
+			(xy 175.26 148.59) (xy 177.8 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9c428f-6304-4256-981b-ac8bca4e3631")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.41) (xy 148.59 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9afb3237-c484-47dd-87b3-d30e4757c46f")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfa1ba7-5f30-4bf4-be4d-4b1f4052b547")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 170.18 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c59a6ed-ad74-46d2-809c-bafdc0480fc3")
+	)
+	(wire
+		(pts
+			(xy 38.1 186.69) (xy 38.1 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c67eb97-c579-4898-886b-c1e8b7af0659")
+	)
+	(wire
+		(pts
+			(xy 74.93 62.23) (xy 74.93 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd6a7c1-a89d-4aac-8f13-d547ec25a220")
+	)
+	(wire
+		(pts
+			(xy 101.6 194.31) (xy 104.14 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1b47cc-5d2b-4e82-9077-ff22e5f6d839")
+	)
+	(wire
+		(pts
+			(xy 167.64 166.37) (xy 167.64 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3e0610-a64a-4a7b-a8f7-547738a8a29d")
+	)
+	(wire
+		(pts
+			(xy 101.6 148.59) (xy 104.14 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef46559-d7e1-4bba-8aac-0244988a8a7a")
+	)
+	(wire
+		(pts
+			(xy 111.76 186.69) (xy 111.76 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f9bafe-d5f5-43ee-a8b7-e0a8b59b508e")
+	)
+	(wire
+		(pts
+			(xy 111.76 118.11) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1725677-5317-4d3c-ae02-33e619170181")
+	)
+	(wire
+		(pts
+			(xy 57.15 85.09) (xy 55.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2326a02-8ef5-4aac-b4a4-5781598baa0e")
+	)
+	(wire
+		(pts
+			(xy 130.81 29.21) (xy 130.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36a548b-0e3f-47a6-be80-b95a79978352")
+	)
+	(wire
+		(pts
+			(xy 130.81 85.09) (xy 130.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a384a2fc-fcc3-455a-827c-e65a8eaf079d")
+	)
+	(wire
+		(pts
+			(xy 74.93 151.13) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48648a8-d812-4c6a-b00b-5e8792b38607")
+	)
+	(wire
+		(pts
+			(xy 55.88 29.21) (xy 57.15 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a56eb9-3f83-46cb-adbd-c6a58cbce3cf")
+	)
+	(wire
+		(pts
+			(xy 92.71 49.53) (xy 96.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a779d321-5739-49fe-8e1d-21255f04fb87")
+	)
+	(wire
+		(pts
+			(xy 93.98 176.53) (xy 92.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5c4413-44fe-4395-a50a-07bb2706c28c")
+	)
+	(wire
+		(pts
+			(xy 71.12 133.35) (xy 71.12 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8c19cf-2de4-4f13-9908-2f45fcccb6a8")
+	)
+	(wire
+		(pts
+			(xy 55.88 166.37) (xy 57.15 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace8a3a6-183b-44ce-899c-35de493d4107")
+	)
+	(wire
+		(pts
+			(xy 38.1 107.95) (xy 38.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1a21c5-91f6-4585-b7e2-6f435db39453")
+	)
+	(wire
+		(pts
+			(xy 148.59 59.69) (xy 148.59 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad87f560-3d12-4681-95ad-9146742a2698")
+	)
+	(wire
+		(pts
+			(xy 92.71 120.65) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adacfaad-d069-4f83-be3e-61d8149fc1df")
+	)
+	(wire
+		(pts
+			(xy 74.93 26.67) (xy 77.47 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf4d5d4-dcb3-4b3b-afe8-7188a2af2171")
+	)
+	(wire
+		(pts
+			(xy 111.76 118.11) (xy 111.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae514fff-9f93-430f-85d0-7bfb5880fccd")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09b4332-bcfe-4f93-ab05-52461fb295b1")
+	)
+	(wire
+		(pts
+			(xy 148.59 49.53) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e98189-abcb-4c24-9d52-aeed93ac10d3")
+	)
+	(wire
+		(pts
+			(xy 111.76 26.67) (xy 114.3 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43d4b74-b111-40b0-931f-4bdbb01283a3")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 111.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5858f94-e2ff-4f48-9332-9b3e8c93e746")
+	)
+	(wire
+		(pts
+			(xy 96.52 186.69) (xy 92.71 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76df184-aeb1-48dc-9018-90d27db7142e")
+	)
+	(wire
+		(pts
+			(xy 175.26 133.35) (xy 181.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7fd7a8f-f3b3-481f-9800-fb25a1b03d2b")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b5a567-f58e-4e45-b8cd-02cba082d94e")
+	)
+	(wire
+		(pts
+			(xy 74.93 118.11) (xy 77.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d8416f-8416-4688-9625-44eed7c39700")
+	)
+	(wire
+		(pts
+			(xy 77.47 173.99) (xy 74.93 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bbf516-32a3-4abe-9b5d-27a2100a31bd")
+	)
+	(wire
+		(pts
+			(xy 40.64 173.99) (xy 38.1 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba161a46-107d-4761-836a-e1e2114cd1e1")
+	)
+	(wire
+		(pts
+			(xy 77.47 128.27) (xy 74.93 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab3c88c-f833-4b84-8503-75a9e1ee2ad7")
+	)
+	(wire
+		(pts
+			(xy 77.47 36.83) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bacd81c0-3c50-477d-9ef6-33d424853e94")
+	)
+	(wire
+		(pts
+			(xy 40.64 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9618f4-3ba9-41e6-9464-eb57e4458899")
+	)
+	(wire
+		(pts
+			(xy 111.76 153.67) (xy 148.59 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc964328-6a7c-4bf1-acba-96976dfd60ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 29.21) (xy 59.69 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd43fcfc-ecf7-4517-872c-cc4fafbd6141")
+	)
+	(wire
+		(pts
+			(xy 74.93 196.85) (xy 111.76 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcdc224-93ab-4165-a305-13d98bee4423")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 129.54 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea0644a-614a-419e-8775-e48a83e6abd9")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 38.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0d9e80-a2c0-43e2-8233-dc3a9a00895b")
+	)
+	(wire
+		(pts
+			(xy 144.78 41.91) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf370341-3726-49a4-8ad6-4ccab9397ff8")
+	)
+	(wire
+		(pts
+			(xy 167.64 29.21) (xy 170.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c137b55d-ca79-43fc-bde8-429952edf88a")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 40.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c4ffb3-0341-469a-93d9-46c585cf53f4")
+	)
+	(wire
+		(pts
+			(xy 104.14 194.31) (xy 104.14 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c6a7bb-3ef0-4cc9-b5cf-48488b6aa52a")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f161de-cd74-433f-9c35-4897c78b43dd")
+	)
+	(wire
+		(pts
+			(xy 74.93 153.67) (xy 74.93 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ef5ac1-0ca4-48d0-b3e4-87262383e785")
+	)
+	(wire
+		(pts
+			(xy 74.93 140.97) (xy 74.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ff38b5-d934-467d-85c8-15cf45a51cfd")
+	)
+	(wire
+		(pts
+			(xy 74.93 16.51) (xy 111.76 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c962992a-8261-48ee-b2bf-6d0e08f64c9c")
+	)
+	(wire
+		(pts
+			(xy 138.43 194.31) (xy 140.97 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b489ef-9689-429b-a199-fa81f766ea3a")
+	)
+	(wire
+		(pts
+			(xy 40.64 82.55) (xy 38.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c7a805-b6ae-4824-9de8-d68e5432e6ad")
+	)
+	(wire
+		(pts
+			(xy 93.98 120.65) (xy 93.98 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca75354e-b458-444f-9e30-6f38fffa7964")
+	)
+	(wire
+		(pts
+			(xy 38.1 26.67) (xy 40.64 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2e5dff-f787-4e3d-9d2a-074ce9fe502b")
+	)
+	(wire
+		(pts
+			(xy 138.43 179.07) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcc1f27-b0a8-4006-9468-1786df93f067")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.23) (xy 74.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce5042b8-085c-490b-9e6d-b250cffa6afb")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceebf335-5454-48e9-8ad3-a03f7ae6c0e0")
+	)
+	(wire
+		(pts
+			(xy 129.54 29.21) (xy 130.81 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d36af5-d1f2-4bad-9587-aa788dc48c86")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 77.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ec8ea7-a137-4b32-b1b6-6b0166e28229")
+	)
+	(wire
+		(pts
+			(xy 111.76 16.51) (xy 148.59 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2edeafc-dc1f-4e43-8406-6c6db5ff77a4")
+	)
+	(wire
+		(pts
+			(xy 40.64 95.25) (xy 38.1 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ca9c3a-7927-472b-bfc0-68e015f15544")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4e354d4-a6b6-4278-aa42-9376b7e5454f")
+	)
+	(wire
+		(pts
+			(xy 167.64 120.65) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50081ee-2c85-4df5-a065-5976d4b0c634")
+	)
+	(wire
+		(pts
+			(xy 138.43 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d534418e-a5ca-4bfe-ae98-825ab77d9115")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 111.76 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5386dd8-25a4-4aa7-85a0-d211ecb13eec")
+	)
+	(wire
+		(pts
+			(xy 92.71 166.37) (xy 93.98 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d561ca24-fbf4-4124-a8ff-0727e49b5081")
+	)
+	(wire
+		(pts
+			(xy 148.59 196.85) (xy 148.59 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56e62f1-9afe-4d75-9080-3ef499cf26e1")
+	)
+	(wire
+		(pts
+			(xy 38.1 118.11) (xy 38.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89b406b-742d-4041-b2c2-3d796675a556")
+	)
+	(wire
+		(pts
+			(xy 114.3 128.27) (xy 111.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ad7e5e-45e2-49b3-871d-9a9c3c1cdb36")
+	)
+	(wire
+		(pts
+			(xy 38.1 151.13) (xy 74.93 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ed6bad-cb6c-42b5-8138-a8a02221f433")
+	)
+	(wire
+		(pts
+			(xy 167.64 74.93) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d95c31a9-fed8-4cb6-b7ca-eceabf192e02")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 129.54 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d960aba7-14cf-4f25-a0be-dc83a9acf6e1")
+	)
+	(wire
+		(pts
+			(xy 74.93 16.51) (xy 74.93 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f507e8-eb4a-4024-97bc-58eaf4286116")
+	)
+	(wire
+		(pts
+			(xy 148.59 153.67) (xy 148.59 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6a9b8c-fa6e-48d7-be94-a11f3fe07e35")
+	)
+	(wire
+		(pts
+			(xy 140.97 148.59) (xy 140.97 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd246b06-a52d-46cb-b421-200a14fd2db2")
+	)
+	(wire
+		(pts
+			(xy 138.43 57.15) (xy 140.97 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6c3ce6-6c53-4838-aa28-e4f726acffcc")
+	)
+	(wire
+		(pts
+			(xy 148.59 186.69) (xy 151.13 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df75cfa7-41e4-44d2-b75f-8aa710c6e3ac")
+	)
+	(wire
+		(pts
+			(xy 40.64 128.27) (xy 38.1 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e075663b-4162-4f0a-a5b8-01b4b42bea5d")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e115aaf5-6119-4d42-8e43-14e865f795e8")
+	)
+	(wire
+		(pts
+			(xy 101.6 133.35) (xy 107.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1232043-563a-4a7c-8dd9-d3c2589a7cde")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 140.97 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22dafec-6c79-4be0-9366-c1e55cf5d83c")
+	)
+	(wire
+		(pts
+			(xy 166.37 49.53) (xy 170.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4567778-1a98-4128-a7f7-beff744fac9b")
+	)
+	(wire
+		(pts
+			(xy 57.15 130.81) (xy 55.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55b16d1-995f-4859-83e7-65efcbd24cd7")
+	)
+	(wire
+		(pts
+			(xy 129.54 49.53) (xy 133.35 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cb4d07-66df-4bdc-94d8-89f3da5a5dcc")
+	)
+	(wire
+		(pts
+			(xy 181.61 179.07) (xy 181.61 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76b66d1-81f6-4fcb-839f-f602ea0f9817")
+	)
+	(wire
+		(pts
+			(xy 74.93 163.83) (xy 74.93 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7fb21d4-35c5-4534-b72a-dfe2c265634f")
+	)
+	(wire
+		(pts
+			(xy 38.1 196.85) (xy 74.93 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e814311a-3cdb-4685-810f-84cf971bfaf7")
+	)
+	(wire
+		(pts
+			(xy 74.93 107.95) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9073b99-db19-49cd-87aa-d27e932c51a8")
+	)
+	(wire
+		(pts
+			(xy 36.83 49.53) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91377a3-7a56-461e-9d73-d07e56185599")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98b5d4c-7e2e-4cd9-ba91-20a5a0851dca")
+	)
+	(wire
+		(pts
+			(xy 140.97 194.31) (xy 140.97 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7e8f15-7420-483d-8b3c-6cef4c4e9b86")
+	)
+	(wire
+		(pts
+			(xy 175.26 87.63) (xy 181.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaae0a03-4d29-48ef-ac90-7eb077d31a3c")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae87cc2-b032-46e5-a889-b9b118f38a81")
+	)
+	(wire
+		(pts
+			(xy 74.93 107.95) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb973b1b-c696-4ca0-8fed-9af3357820fe")
+	)
+	(wire
+		(pts
+			(xy 111.76 16.51) (xy 111.76 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd3711f-3298-46bf-b7d3-72e7dad91954")
+	)
+	(wire
+		(pts
+			(xy 36.83 107.95) (xy 38.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee159d51-5c6f-4fcf-a88e-d8301f7ff64c")
+	)
+	(wire
+		(pts
+			(xy 67.31 194.31) (xy 67.31 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef3e4818-31a1-4891-a5e6-9f1529d431c9")
+	)
+	(wire
+		(pts
+			(xy 130.81 39.37) (xy 130.81 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d4b712-1f7d-4538-ae3d-94812eeb4a31")
+	)
+	(wire
+		(pts
+			(xy 181.61 133.35) (xy 181.61 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20a8048-be9d-4dd1-baec-0d9f1c8e32a4")
+	)
+	(wire
+		(pts
+			(xy 101.6 41.91) (xy 107.95 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6743d37-5f6e-41b7-9717-b473b5df952d")
+	)
+	(wire
+		(pts
+			(xy 170.18 186.69) (xy 166.37 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6976c8f-680e-458e-bc4d-9265a06a78a6")
+	)
+	(wire
+		(pts
+			(xy 92.71 29.21) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76f1f0f-c3d4-4952-999f-f9167b4a97e5")
+	)
+	(wire
+		(pts
+			(xy 64.77 148.59) (xy 67.31 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f820d7e4-5e64-4439-a18c-707d0b782949")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cf59fe-e358-4dae-912e-bd5d3d7e80ae")
+	)
+	(wire
+		(pts
+			(xy 111.76 153.67) (xy 111.76 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e535e0-b85c-40ad-b708-307edbafdc18")
+	)
+	(wire
+		(pts
+			(xy 55.88 120.65) (xy 57.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97d9d21-ada6-4789-a96f-f33a87b7da21")
+	)
+	(wire
+		(pts
+			(xy 111.76 49.53) (xy 114.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa591b81-04ff-4e67-8c94-7e8867d0b4dd")
+	)
+	(wire
+		(pts
+			(xy 74.93 72.39) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8b7c9e-1391-4e73-8b4c-94d9aae7d7e4")
+	)
+	(wire
+		(pts
+			(xy 111.76 140.97) (xy 114.3 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf75a5b-8327-4e92-b631-2f50ad64b3f4")
+	)
+	(wire
+		(pts
+			(xy 148.59 140.97) (xy 151.13 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcaf580b-6bc6-41b6-8558-6eb6f32aa968")
+	)
+	(wire
+		(pts
+			(xy 151.13 128.27) (xy 148.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe278656-2d75-4501-abfc-04cb0411c588")
+	)
+	(wire
+		(pts
+			(xy 93.98 130.81) (xy 92.71 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe82ccb5-9771-4055-ba0d-68e790dde476")
+	)
+	(wire
+		(pts
+			(xy 101.6 179.07) (xy 107.95 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff40dc65-e6b8-4fa5-a266-a3286904dca1")
+	)
+	(wire
+		(pts
+			(xy 71.12 41.91) (xy 71.12 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa653c1-af92-4cc5-a85c-3f7b2b352ce9")
+	)
+	(wire
+		(pts
+			(xy 107.95 87.63) (xy 107.95 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa680bc-1ca9-4112-b9f4-b7ed7b52556a")
+	)
+	(wire
+		(pts
+			(xy 36.83 62.23) (xy 38.1 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcf035b-96fb-4d08-b421-e13f9d894442")
+	)
+	(wire
+		(pts
+			(xy 38.1 107.95) (xy 74.93 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffd1184-c160-4653-bab9-c8c0f7986722")
+	)
+	(global_label "bus_A"
+		(shape bidirectional)
+		(at 59.69 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47dc2c39-10c8-4d9f-abb9-d78c8d55c36f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.1688 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "bus_B"
+		(shape bidirectional)
+		(at 96.52 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f09128b-2c73-4648-a927-9b6666e12cea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.1802 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "bus_D"
+		(shape bidirectional)
+		(at 170.18 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac44e486-b074-4910-b1e0-fa96a50b71cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.8402 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "bus_C"
+		(shape bidirectional)
+		(at 133.35 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dddbaa0d-125f-4b3c-b432-0dbd5c8eb5b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.0102 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(hierarchical_label "coil_colB-"
+		(shape bidirectional)
+		(at 104.14 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1df0ccdc-e2ef-4435-a080-c18345227dbf")
+	)
+	(hierarchical_label "coil_colA-"
+		(shape bidirectional)
+		(at 67.31 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fde6ab3-7cba-409f-bb10-023c7b754a90")
+	)
+	(hierarchical_label "coil_row2"
+		(shape bidirectional)
+		(at 35.56 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48b13fe3-2f48-40d7-9a6b-ce9fea868725")
+	)
+	(hierarchical_label "coil_colD-"
+		(shape bidirectional)
+		(at 177.8 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6940186c-cf12-4520-ac7d-8307ec7cbab8")
+	)
+	(hierarchical_label "coil_colC-"
+		(shape bidirectional)
+		(at 140.97 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76648b01-15fe-427e-9636-57ed0c1541bc")
+	)
+	(hierarchical_label "coil_colD+"
+		(shape bidirectional)
+		(at 181.61 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91697d6f-bdb9-471a-834c-0a0075d2d584")
+	)
+	(hierarchical_label "coil_colC+"
+		(shape bidirectional)
+		(at 144.78 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4d1fff9-d792-4741-8cff-c6da852b2c34")
+	)
+	(hierarchical_label "coil_row4"
+		(shape bidirectional)
+		(at 35.56 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a745f012-3627-4541-bb53-889ee16f5533")
+	)
+	(hierarchical_label "coil_colB+"
+		(shape bidirectional)
+		(at 107.95 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac23843e-7926-4ef3-ad4b-09580169b4fa")
+	)
+	(hierarchical_label "coil_row3"
+		(shape bidirectional)
+		(at 36.83 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5e1ecee-1439-47a1-a673-55458aee0d36")
+	)
+	(hierarchical_label "coil_colA+"
+		(shape bidirectional)
+		(at 71.12 200.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e80be84f-3dfd-41b2-94c8-1f4e678bb4a7")
+	)
+	(hierarchical_label "coil_row1"
+		(shape bidirectional)
+		(at 36.83 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efc3095e-c6ad-44e7-89f1-03cbecbffad8")
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 158.75 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00861cd5-1026-4465-9704-ff4fb66eaf5f")
+		(property "Reference" "K8"
+			(at 158.75 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 158.75 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 158.75 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 158.75 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "281291d7-77d2-4447-835b-c6b92d605c0e")
+		)
+		(pin "5"
+			(uuid "52598419-3bdb-4faa-a58c-a243018a66fb")
+		)
+		(pin "3"
+			(uuid "701faf85-c287-4eef-940d-5ac675b1dcdc")
+		)
+		(pin "4"
+			(uuid "1fa6ac60-77b2-40cc-ad98-0c4d6e1fd14b")
+		)
+		(pin "2"
+			(uuid "c4717d64-e3a7-4255-8268-0f43f2541a49")
+		)
+		(pin "8"
+			(uuid "54cdfb64-11b9-4f25-b01a-28cf079b888f")
+		)
+		(pin "6"
+			(uuid "f1be5608-5721-4a5d-8cb9-e99bf8b98fe9")
+		)
+		(pin "7"
+			(uuid "40aefaa9-df34-4069-9dd3-1d42924b78d6")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 153.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd63c21-8b6f-4720-a98a-8e405297bc60")
+		(property "Reference" "H4"
+			(at 30.48 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 154.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_specific_footprints:MountingHole_large_Pad"
+			(at 34.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b428e74-d345-4b06-ba80-f79250dc928f")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 48.26 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6d8327-41b2-4974-92c1-5800640fad81")
+		(property "Reference" "K1"
+			(at 48.26 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 48.26 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 48.26 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 48.26 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bd9a74e-f2cf-4695-a6a9-698691e566c3")
+		)
+		(pin "5"
+			(uuid "2c1fc286-03b0-4350-a9a3-1da3eb96b9cb")
+		)
+		(pin "3"
+			(uuid "c3918e59-e751-44dd-810d-f0861e04b776")
+		)
+		(pin "4"
+			(uuid "5c578671-1691-4fb4-a262-3562701ffec5")
+		)
+		(pin "2"
+			(uuid "2f13d412-6ec3-43af-95cc-42528bc20578")
+		)
+		(pin "8"
+			(uuid "52bcca6f-1b7d-4ae4-a706-8a5c26e9c2d3")
+		)
+		(pin "6"
+			(uuid "e7e83b2f-76d6-4581-85e8-2e80c7aeb235")
+		)
+		(pin "7"
+			(uuid "a5c022db-5f4b-40f5-9a02-bbbd916ba3ee")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 16.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fdbbaa4-8936-4d7b-9a22-4db2d1e37fef")
+		(property "Reference" "H1"
+			(at 30.48 15.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 17.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_specific_footprints:MountingHole_large_Pad"
+			(at 34.29 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dacda5ec-7194-4c2a-935e-8c7d7e9739a8")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 85.09 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23fe3900-35db-447b-bb4d-3f6956db16aa")
+		(property "Reference" "K6"
+			(at 85.09 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 85.09 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 85.09 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 85.09 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 85.09 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 85.09 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee70a39a-9842-4f7c-82e8-97edf07c6763")
+		)
+		(pin "5"
+			(uuid "548bc147-090f-4dc3-8433-4d2b3b3309bd")
+		)
+		(pin "3"
+			(uuid "3d27d22f-1e9f-4bd2-8a4f-a38d99745d20")
+		)
+		(pin "4"
+			(uuid "26c76245-722f-48ff-8e3b-6c902485355a")
+		)
+		(pin "2"
+			(uuid "9969ea2b-20ea-4c24-8d0c-fa23d5562333")
+		)
+		(pin "8"
+			(uuid "ab604f86-3d22-4475-a1c6-98da5c5672b5")
+		)
+		(pin "6"
+			(uuid "faf349b7-0f76-4151-8802-55b45508a237")
+		)
+		(pin "7"
+			(uuid "8f8bed88-9fce-4c8b-99db-37c49460a77e")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 48.26 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282a6781-53de-43d4-bda6-44f029b3d30f")
+		(property "Reference" "K5"
+			(at 48.26 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 48.26 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 48.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 48.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 48.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 48.26 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "525707de-997f-4bf5-ae72-3bf5e702355c")
+		)
+		(pin "5"
+			(uuid "ae7abff5-19c7-4869-9dae-cf3e7a508ca1")
+		)
+		(pin "3"
+			(uuid "f59560af-bfcc-4629-acb9-c86e6659f0b6")
+		)
+		(pin "4"
+			(uuid "4da0b46d-1fd4-4080-9ae8-02ccbfba5b28")
+		)
+		(pin "2"
+			(uuid "7b8c1d81-1c9f-4d9e-b760-af7ab4b9b287")
+		)
+		(pin "8"
+			(uuid "84e81177-b6c9-46f7-ab25-df95c91f529a")
+		)
+		(pin "6"
+			(uuid "526a747a-40e7-43ab-a999-edb9660a1043")
+		)
+		(pin "7"
+			(uuid "f38fae60-44cc-45dc-ada8-693402047a22")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 101.6 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2da1bbfe-d734-492c-85be-401b67f6c7e6")
+		(property "Reference" "D58"
+			(at 104.14 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 104.14 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 101.6 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 101.6 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 101.6 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "354161cb-d484-4caa-9800-5a1a00cd86e5")
+		)
+		(pin "3"
+			(uuid "d4a621a8-016a-49d7-bb85-3166ba2d11f8")
+		)
+		(pin "1"
+			(uuid "c4e30c8c-5b87-4067-b8c4-5387d78a0341")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 121.92 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36b97a5b-4a59-4c14-b1e5-13e69813584e")
+		(property "Reference" "K15"
+			(at 121.92 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 121.92 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 121.92 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 121.92 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cab1004-bba9-465f-8341-5e2c006442bf")
+		)
+		(pin "5"
+			(uuid "1fe422e3-c332-4dbb-b614-b7431ea9e33a")
+		)
+		(pin "3"
+			(uuid "db3ebc81-4f94-4b7b-8d41-d838bacd6f02")
+		)
+		(pin "4"
+			(uuid "e1985de1-0387-4793-9bdf-bd754f92c3d1")
+		)
+		(pin "2"
+			(uuid "a403be79-b222-48a5-9a0f-2bcdba6fcbed")
+		)
+		(pin "8"
+			(uuid "b016b58d-ee56-414f-a6e2-bbedffedea6a")
+		)
+		(pin "6"
+			(uuid "1049886e-d065-41bf-948f-530b695417b0")
+		)
+		(pin "7"
+			(uuid "c5701051-8dd7-4d62-9f56-e62877ab8812")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 121.92 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f73f5a8-b850-4ddf-9cfb-28481907afc7")
+		(property "Reference" "K11"
+			(at 121.92 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 121.92 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 121.92 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 121.92 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "827dc45a-12a6-444a-989d-2d6fa9a5a3e8")
+		)
+		(pin "5"
+			(uuid "dcb78b7b-9079-4de0-8cc2-4a2fe7727559")
+		)
+		(pin "3"
+			(uuid "94731e08-4459-447c-b8e6-35a07975f5f7")
+		)
+		(pin "4"
+			(uuid "dac68dae-b363-46e2-a630-16238b84982f")
+		)
+		(pin "2"
+			(uuid "740d9e6b-0d6e-4803-8d2a-aa467a73e765")
+		)
+		(pin "8"
+			(uuid "1db430d6-3c85-4673-b9e1-831f19adcfa4")
+		)
+		(pin "6"
+			(uuid "38dbd167-720b-4341-a958-b584aa3aab61")
+		)
+		(pin "7"
+			(uuid "72f553e2-7759-4be3-94c6-a3d14b5b48ec")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 121.92 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4653b1d0-d548-44cb-a19c-8aa27fcafbfa")
+		(property "Reference" "K7"
+			(at 121.92 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 121.92 67.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 121.92 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 121.92 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17dc584b-191d-461b-a1cc-32ab362f5ca1")
+		)
+		(pin "5"
+			(uuid "f54b3637-6adb-4d98-9a80-cac0892a6f28")
+		)
+		(pin "3"
+			(uuid "51e44a58-9851-43e2-9f6d-6edf280af6b5")
+		)
+		(pin "4"
+			(uuid "6c0de305-4c17-471f-ab56-ad0bddb81cdf")
+		)
+		(pin "2"
+			(uuid "123624fd-28a4-4ae3-a0e7-ca2695584df9")
+		)
+		(pin "8"
+			(uuid "a1a87a0e-3189-44b7-a7b4-589b637c5407")
+		)
+		(pin "6"
+			(uuid "455b17af-7738-48f3-b60a-ca08ef68bab7")
+		)
+		(pin "7"
+			(uuid "2352432b-8e32-48b8-a453-c5346a0434f6")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 138.43 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a6d9ab0-a67b-4169-8065-0adfe3fffa00")
+		(property "Reference" "D55"
+			(at 140.97 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 140.97 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 125.73 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 138.43 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 138.43 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 138.43 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d35886f1-9c9e-4d29-bfd1-6ad749221cee")
+		)
+		(pin "3"
+			(uuid "2b198cf5-8751-4682-90c4-050bc432c473")
+		)
+		(pin "1"
+			(uuid "80c993ac-c26c-4f6c-8407-60af446bbc70")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 64.77 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4df49604-1609-4b78-9553-6975628be0ec")
+		(property "Reference" "D61"
+			(at 67.31 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 67.31 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 64.77 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 64.77 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 64.77 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a9bf6fc1-9bc6-4967-8a5b-5dd9e150c061")
+		)
+		(pin "3"
+			(uuid "11073b08-6b83-4e9e-8250-4d30403036c6")
+		)
+		(pin "1"
+			(uuid "99cfb5e2-af3a-45b4-96ab-617b77428807")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 64.77 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff8144d-ab9d-4e17-bcb1-7836937c08ff")
+		(property "Reference" "D57"
+			(at 67.31 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 67.31 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 52.07 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 64.77 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 64.77 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 64.77 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9148f1ec-6d46-4c82-a639-08c32055ac7d")
+		)
+		(pin "3"
+			(uuid "cbaa0911-1004-4251-9f72-c3a380d4e500")
+		)
+		(pin "1"
+			(uuid "a48bb018-848c-4d31-a94f-647d2e28ba0a")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 158.75 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6099112c-f8a7-4309-ad60-592ec87ff0a9")
+		(property "Reference" "K12"
+			(at 158.75 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 158.75 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 158.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 158.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 158.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 158.75 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1dd16c80-3fa8-4616-801b-ed5bab897f36")
+		)
+		(pin "5"
+			(uuid "7818b638-7d45-46dc-9bcb-19d095b9e758")
+		)
+		(pin "3"
+			(uuid "210915f6-0573-4950-a2c0-453d7e092f7f")
+		)
+		(pin "4"
+			(uuid "1dbdf0b0-a2d1-4da6-baf6-f2591c78ef97")
+		)
+		(pin "2"
+			(uuid "c5bcd611-ffa3-4ae9-99a7-3c34443d5d57")
+		)
+		(pin "8"
+			(uuid "c742406b-6f0c-41e9-bda9-c25688ef48b7")
+		)
+		(pin "6"
+			(uuid "fd08f773-263a-4b26-9865-002afd01259b")
+		)
+		(pin "7"
+			(uuid "c39506d7-f55a-410f-9bf5-2a3d36d144c3")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a095e1d-3cb5-4290-9f5b-ea6cd8c8f6a3")
+		(property "Reference" "H2"
+			(at 30.48 60.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_specific_footprints:MountingHole_large_Pad"
+			(at 34.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec3001fb-aa3b-491f-b8e2-aaf4397d0095")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 138.43 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "834e016e-b495-4ea6-823a-e721d09e7ec8")
+		(property "Reference" "D63"
+			(at 140.97 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 140.97 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 125.73 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 138.43 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 138.43 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 138.43 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a534aa15-b66c-43e5-8ea3-d909e2b72ae3")
+		)
+		(pin "3"
+			(uuid "9cb14ec9-045b-4859-86af-60dd6b98eac4")
+		)
+		(pin "1"
+			(uuid "f42975b1-457a-4d85-a52a-b9adbc9557f6")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 34.29 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c79b53-8914-423a-9fa1-0430c2dff58c")
+		(property "Reference" "H3"
+			(at 30.48 106.6799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 30.48 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "project_specific_footprints:MountingHole_large_Pad"
+			(at 34.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 34.29 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "320c187c-7f71-48b2-b67d-35ce5ea49afa")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 175.26 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "877668fe-316e-4cb9-8884-3b9b00d63e2d")
+		(property "Reference" "D60"
+			(at 177.8 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 177.8 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 175.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 175.26 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 175.26 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4c0429d4-362f-4316-b112-713f21ca3243")
+		)
+		(pin "3"
+			(uuid "2da80b3a-48dc-465e-b909-8eae60556d9c")
+		)
+		(pin "1"
+			(uuid "200f7d4c-f002-4eae-8b4f-7717255a463c")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 101.6 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8abb1491-458a-4ecc-b8e6-5cbd2dcba660")
+		(property "Reference" "D50"
+			(at 104.14 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 104.14 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 101.6 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 101.6 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 101.6 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5feafe40-ce26-4f1b-9efc-8e5d50309fd3")
+		)
+		(pin "3"
+			(uuid "9475d4c3-ce93-49e8-9f09-39ddf7e9b1f1")
+		)
+		(pin "1"
+			(uuid "dfcddc12-ddaa-445b-bfb8-92c4c8ad512e")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 48.26 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ebc99a-8730-48f2-83f6-3efe6ca7f700")
+		(property "Reference" "K9"
+			(at 48.26 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 48.26 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 48.26 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 48.26 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 48.26 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 48.26 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d45c1d0a-4739-4cd2-92e9-227d65dd4a85")
+		)
+		(pin "5"
+			(uuid "d1d1f4d4-caa5-476d-8673-2f04b5ae54cd")
+		)
+		(pin "3"
+			(uuid "a1768dd8-f439-4947-9d7a-ca8550e7f006")
+		)
+		(pin "4"
+			(uuid "eaff713c-4480-40d0-8640-1b0235fdf08a")
+		)
+		(pin "2"
+			(uuid "2eb984e2-c903-460e-bd2e-57d91a0d57a0")
+		)
+		(pin "8"
+			(uuid "2ccf5d67-d524-4967-9f65-91d6970e6859")
+		)
+		(pin "6"
+			(uuid "067e19a2-64b4-4d78-a44b-2d8441a40893")
+		)
+		(pin "7"
+			(uuid "9878a8d7-e0f8-4887-bc48-86736fa3b38f")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 85.09 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90f53ea1-39de-43c6-8bd2-18bee28463c2")
+		(property "Reference" "K14"
+			(at 85.09 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 85.09 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 85.09 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 85.09 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 85.09 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 85.09 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b6388ca-ee1e-4e44-95bd-95c95d42954a")
+		)
+		(pin "5"
+			(uuid "3af17739-ff28-4995-83f8-4eccab2b6d55")
+		)
+		(pin "3"
+			(uuid "a6537870-f382-461f-babc-971281c41205")
+		)
+		(pin "4"
+			(uuid "9bdfae2c-eebd-432b-826f-53697f53330f")
+		)
+		(pin "2"
+			(uuid "abcf1a83-4092-49f3-8ce9-6513baaf8d02")
+		)
+		(pin "8"
+			(uuid "36fe5e2a-4dc9-4cb9-994f-1f0e71f25c4a")
+		)
+		(pin "6"
+			(uuid "13edd223-a5de-457f-a1af-d095cfaeb397")
+		)
+		(pin "7"
+			(uuid "44ec45ba-d704-4685-9cb2-26c86f6e4c13")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 101.6 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92a58ad6-3be3-4415-89ec-442b49ed1c15")
+		(property "Reference" "D54"
+			(at 104.14 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 104.14 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 101.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 101.6 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 101.6 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52530267-3d77-43ee-ad64-f21e089f3545")
+		)
+		(pin "3"
+			(uuid "ab0ecb5a-b19f-42ad-941c-98ef285db68b")
+		)
+		(pin "1"
+			(uuid "3756b243-c8ed-42e9-9719-608660cfb97c")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 121.92 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cb4dc11-d199-41af-b70e-4b2d0613f469")
+		(property "Reference" "K3"
+			(at 121.92 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 121.92 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 121.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 121.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 121.92 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 121.92 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac951001-f8c5-428e-8e32-141a8e72831e")
+		)
+		(pin "5"
+			(uuid "6515e90b-8def-4b4e-84f1-e87dd5e2e2f1")
+		)
+		(pin "3"
+			(uuid "9a2566d9-ff15-4eb4-a748-33bd767131c3")
+		)
+		(pin "4"
+			(uuid "56704993-b6df-49b5-b331-8a36a3204c9a")
+		)
+		(pin "2"
+			(uuid "71b2a631-c566-4df1-815e-713423f00c5e")
+		)
+		(pin "8"
+			(uuid "256c7bd4-d7af-4612-a056-d4d0ac626bfd")
+		)
+		(pin "6"
+			(uuid "c9d81aec-2f62-4108-92cc-8ccbce236398")
+		)
+		(pin "7"
+			(uuid "96ff49f5-0c3e-4cef-ad76-c3a8d6047863")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 64.77 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a48ba30e-3680-445d-844a-961d1053d929")
+		(property "Reference" "D53"
+			(at 67.31 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 67.31 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 52.07 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 64.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 64.77 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 64.77 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5d5f12b-70a3-457f-bf50-658d29d7ba66")
+		)
+		(pin "3"
+			(uuid "04a13453-23ba-48a9-abc4-171d0caf7f85")
+		)
+		(pin "1"
+			(uuid "ec31069a-9814-429c-84e0-aaecf30dd116")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 138.43 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afb05f33-7551-443e-9ce0-e2364f30aea5")
+		(property "Reference" "D59"
+			(at 140.97 139.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 140.97 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 125.73 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 138.43 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c41e468-c580-44e5-ad4b-e4ecd8111837")
+		)
+		(pin "3"
+			(uuid "b6a3cade-bfd8-4b81-bdd7-16c53c1ceb0e")
+		)
+		(pin "1"
+			(uuid "33b85520-c239-4b2f-88f9-0ecf2ca21e49")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 158.75 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcd56e51-3be8-4c86-aae1-9605da1e5f73")
+		(property "Reference" "K16"
+			(at 158.75 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 158.75 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 158.75 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 158.75 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "179ed063-1294-4a1f-83cd-9e25bf659a66")
+		)
+		(pin "5"
+			(uuid "baf525a8-f281-4270-977d-5ac61980af5a")
+		)
+		(pin "3"
+			(uuid "4ae826eb-e577-45e0-912a-aa5f023f5ddb")
+		)
+		(pin "4"
+			(uuid "b8045551-169b-4318-904d-14af274270c2")
+		)
+		(pin "2"
+			(uuid "34de4dfb-d2e6-4b0d-a7b3-26dce1029603")
+		)
+		(pin "8"
+			(uuid "e248c62e-3f95-4886-82e4-73ba6ed39268")
+		)
+		(pin "6"
+			(uuid "b4f1c318-95cd-44ed-b0c3-dce79d69cb63")
+		)
+		(pin "7"
+			(uuid "3347a75a-5ad7-428d-9f19-9d8c0f81c336")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 175.26 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3b6c5d5-2d0c-4c96-95b2-ef2a21f60e3a")
+		(property "Reference" "D56"
+			(at 177.8 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 177.8 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 175.26 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 175.26 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 175.26 95.25 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "37bb02d7-29f7-41fb-b45b-c2902787bb51")
+		)
+		(pin "3"
+			(uuid "38ec61c1-93fa-4a57-bbfd-d8750fed3295")
+		)
+		(pin "1"
+			(uuid "09e45ac7-c1cd-4a4a-bf76-afc2b659da31")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 175.26 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5cc4a95-05b4-4f69-9a3e-e9814c766d67")
+		(property "Reference" "D52"
+			(at 177.8 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 177.8 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 175.26 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78c6c4a8-19fb-4161-8dd9-812372da3222")
+		)
+		(pin "3"
+			(uuid "020165cc-1b20-4044-8380-4b587e3084a0")
+		)
+		(pin "1"
+			(uuid "ac4dcdbb-d2cf-4b91-a3c8-8290c3b72493")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 138.43 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ced23f12-994d-4ce3-96a9-7624ea45a582")
+		(property "Reference" "D51"
+			(at 140.97 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 140.97 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 125.73 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 138.43 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 138.43 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 138.43 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c7de3fa-5b58-43a9-b92a-dcb73532bc4f")
+		)
+		(pin "3"
+			(uuid "0a8e807b-7e45-4969-ad49-3086fd1eecc4")
+		)
+		(pin "1"
+			(uuid "1988a59b-4158-4918-a9f6-de08411234cf")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 158.75 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d255f4fc-05d5-4f52-a704-51d1b46d67e8")
+		(property "Reference" "K4"
+			(at 158.75 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 158.75 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 158.75 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 158.75 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 158.75 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 158.75 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72f9acc5-5c4a-4fc8-abb3-4abd098a88fa")
+		)
+		(pin "5"
+			(uuid "fc0792d1-dee1-43e2-8b7f-d3eb31391fac")
+		)
+		(pin "3"
+			(uuid "44ecb66d-e096-423b-a7b6-cd1e05327a4b")
+		)
+		(pin "4"
+			(uuid "e3713634-d35f-4586-96ec-b62670a43951")
+		)
+		(pin "2"
+			(uuid "cee24093-5d65-4d43-90ea-90007028c084")
+		)
+		(pin "8"
+			(uuid "9b4fd6cb-6679-435e-997f-bd7244e1b1a9")
+		)
+		(pin "6"
+			(uuid "afc031c8-a9fb-4d9f-ad29-e5e23a978b4e")
+		)
+		(pin "7"
+			(uuid "8110df8a-70b6-4996-9c75-52fc9e8418ba")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 175.26 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e020ff06-ff6a-41c3-a60a-aaa009cbf57e")
+		(property "Reference" "D64"
+			(at 177.8 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 177.8 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 162.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 175.26 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 175.26 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 175.26 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "647c03d1-1715-4002-b2bd-f1d0bb2ce837")
+		)
+		(pin "3"
+			(uuid "4ea56b93-da54-47b0-a80e-d3d1dca078cd")
+		)
+		(pin "1"
+			(uuid "1b3d33cb-731c-445a-8046-99cc2e3b628a")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 48.26 176.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb0b0b30-df2e-4465-9e57-bbdc29ed64a4")
+		(property "Reference" "K13"
+			(at 48.26 156.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 48.26 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 48.26 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 48.26 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 48.26 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 48.26 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38652d75-6357-40cb-9695-6369d80fbf49")
+		)
+		(pin "5"
+			(uuid "366e1fff-f397-47b7-b44e-54907457e86e")
+		)
+		(pin "3"
+			(uuid "d5482fa9-92d2-423d-840d-adbf9b051212")
+		)
+		(pin "4"
+			(uuid "366ea982-30c7-4892-a9f8-9f97aa0dbab9")
+		)
+		(pin "2"
+			(uuid "61ec392a-9635-45dd-97ca-e0768f72e6f0")
+		)
+		(pin "8"
+			(uuid "5b0f8503-d158-478e-9e5a-691623236df1")
+		)
+		(pin "6"
+			(uuid "4f3f748f-2d24-4daa-bd4d-77235e9a5e45")
+		)
+		(pin "7"
+			(uuid "6864dd2b-ee4c-442d-9113-72dc84dc86bf")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 85.09 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0c11b18-0189-412b-9a17-2b3932b5fe51")
+		(property "Reference" "K2"
+			(at 85.09 19.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 85.09 21.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 85.09 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 85.09 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be1cb66e-0ba3-430f-91cb-6cc442ac1a63")
+		)
+		(pin "5"
+			(uuid "7fefa39a-9ef6-42a8-9b3d-91e49a4f4c1a")
+		)
+		(pin "3"
+			(uuid "12ee25db-4877-4e2d-aa2a-0645b9c282e3")
+		)
+		(pin "4"
+			(uuid "539c76a7-8b18-4d35-8852-b142b71e7a7b")
+		)
+		(pin "2"
+			(uuid "ad2329ef-1830-4dfd-9a9d-287afe9892c0")
+		)
+		(pin "8"
+			(uuid "57ac095c-f008-4bd6-bdcf-6ad724e8d1b8")
+		)
+		(pin "6"
+			(uuid "ccca435e-9d13-4eb9-81e9-8937278a6f48")
+		)
+		(pin "7"
+			(uuid "e24e0e43-a687-49f0-8f63-b809ce22e24e")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6KU-2")
+		(at 85.09 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f82c19fb-9668-480c-90aa-db079eb7e779")
+		(property "Reference" "K10"
+			(at 85.09 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G6KU-2"
+			(at 85.09 113.03 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y"
+			(at 85.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 85.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-winding Latching"
+			(at 85.09 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2153173"
+			(at 85.09 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "708085d0-2ecb-411f-9463-b9371d0c698f")
+		)
+		(pin "5"
+			(uuid "4bdfab3e-a458-4871-8adb-a4fc0184ac0a")
+		)
+		(pin "3"
+			(uuid "a8f8435c-4517-4dc2-ad5c-f44f1c846d8a")
+		)
+		(pin "4"
+			(uuid "e37e743a-337e-41f0-afde-b3a8056a927d")
+		)
+		(pin "2"
+			(uuid "7a3cd175-0c50-42e7-9a45-5fd188d7a0f9")
+		)
+		(pin "8"
+			(uuid "8cd1551b-0fce-4293-ab3c-1514959dbf01")
+		)
+		(pin "6"
+			(uuid "e45e2330-a287-4b5a-974f-2c036f40310c")
+		)
+		(pin "7"
+			(uuid "0b5f772e-a5e1-4282-8f05-82cc6ea1bc2e")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 101.6 186.69 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f940d679-e683-48ff-a777-1e9f88c7a28c")
+		(property "Reference" "D62"
+			(at 104.14 185.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 104.14 187.9599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 101.6 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 101.6 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 101.6 186.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90c7c908-7d58-443c-a169-cb789898d95c")
+		)
+		(pin "3"
+			(uuid "0fb5dd87-d26c-4262-a023-f94cacbe8400")
+		)
+		(pin "1"
+			(uuid "e916e4c8-013d-46da-aed8-d473698391e2")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 64.77 49.53 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf7e306-881a-41e0-aa9c-ead9772d4bd4")
+		(property "Reference" "D49"
+			(at 67.31 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 67.31 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 52.07 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 64.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 64.77 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2500"
+			(at 64.77 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a23fd9ce-c23d-4526-a8aa-c9754155969c")
+		)
+		(pin "3"
+			(uuid "b223f4c8-3166-45aa-a8b9-051797f76d90")
+		)
+		(pin "1"
+			(uuid "eb6ae6d6-c4e4-4c50-9649-129982869df2")
+		)
+		(instances
+			(project "nbs430_switch"
+				(path "/67278e47-c0bc-4977-9a5a-04c7b0d8a034/b5eaafed-7845-4928-bd0e-a793fd341b9d"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
