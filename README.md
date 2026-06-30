@@ -3,4 +3,5 @@
 
 # TODO
  Component annotation pattern is asymmetrical on both sides
+ 
  Test points directly to the 4 buses might be useful
