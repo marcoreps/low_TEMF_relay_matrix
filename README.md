@@ -48,9 +48,9 @@ A low-thermal EMF relay matrix board designed for **automated 4-wire resistance 
 | :---: | :---: | :---: |
 | <a href="img/PXL_20260630_173706793.jpg"><img src="img/PXL_20260630_173706793.jpg" width="200"></a> | <a href="img/PXL_20260630_174823579.jpg"><img src="img/PXL_20260630_174823579.jpg" width="200"></a> | <a href="img/PXL_20260630_174914501.jpg"><img src="img/PXL_20260630_174914501.jpg" width="200"></a> |
 
-| Taobao Terminals | 3mm Al plate | Sandwitch |
+| Taobao Terminals | 3mm Al plate | 19" width |
 | :---: | :---: | :---: |
-| <a href="img/PXL_20260630_174748971.jpg"><img src="img/PXL_20260630_174748971.jpg" width="200"></a> | <a href="img/PXL_20260630_174942511.jpg"><img src="img/PXL_20260630_174942511.jpg" width="200"></a> | <a href="img/PXL_20260630_174914501.jpg"><img src="img/PXL_20260630_174914501.jpg" width="200"></a> |
+| <a href="img/PXL_20260630_174748971.jpg"><img src="img/PXL_20260630_174748971.jpg" width="200"></a> | <a href="img/PXL_20260630_174942511.jpg"><img src="img/PXL_20260630_174942511.jpg" width="200"></a> | <a href="img/PXL_20260702_090840871.jpg"><img src="img/PXL_20260702_090840871.jpg" width="200"></a> |
 
 </div>
 
