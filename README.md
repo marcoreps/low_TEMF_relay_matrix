@@ -1,22 +1,58 @@
 # low_TEMF_relay_matrix
- For automated 4W Resistance measurements and NBS 430 Voltage supervision
 
-<a href="img/3d_viewer.png">
-  <img src="img/3d_viewer.png" alt="3D Viewer" width="400">
-</a>
+A low-thermal EMF relay matrix board designed for **automated 4-wire resistance measurements** and **NBS 430 voltage supervision**. Needs 5V supply and an external microcontroller to feed data into a shift register bucket brigade. Oblong terminal pads for cable shoes or brinding posts. <19" wide board for possible rack installation.
 
-<a href="img/drivers.png">
-  <img src="img/drivers.png" alt="Drivers" width="400">
-</a>
+---
 
-<a href="img/relay_block.png">
-  <img src="img/relay_block.png" alt="Relay Block" width="400">
-</a>
+## Changelog
 
-<a href="img/benchmark.png">
-  <img src="img/benchmark.png" alt="Test results" width="400">
-</a>
+### Version 0.5
+* **Improved Grounding:** Exposed GND copper plane around a mounting hole for convenient shield/enclosure chassis connection
+* **Optimized Trace Resistance:** Criss-cross pattern on layers 2,3 instead of identical traces to minimize path resistance
 
-<a href="img/concept_documentation.png">
-  <img src="img/concept_documentation.png" alt="Simplified diagram" width="400">
-</a>
+### Version 0.4
+* Added test points connected directly to the four buses
+* Added silkscreen logos
+
+---
+
+## Recommended PCB
+
+* 4 layer
+* OSP (a bit difficult to strip but gives bare copper pads)
+* Gold plating shouldn't be much worse
+
+---
+
+## Images
+
+<div align="center">
+
+### Overview
+| 3D Render | Concept |
+| :---: | :---: |
+| <a href="img/3d_viewer.png"><img src="img/3d_viewer.png" width="300"></a> | <a href="img/concept_documentation.png"><img src="img/concept_documentation.png" width="300"></a> |
+
+### Schematics
+| Relay Driver | Relay Block | Test Results |
+| :---: | :---: | :---: |
+| <a href="img/drivers.png"><img src="img/drivers.png" width="200"></a> | <a href="img/relay_block.png"><img src="img/relay_block.png" width="200"></a> |
+
+### Performance
+| Test Results |
+| :---: |
+| <a href="img/benchmark.png"><img src="img/benchmark.png" width="200"></a> |
+
+### Heat spreader example
+| Front | Rear | Sandwitch |
+| :---: | :---: | :---: |
+| <a href="img/PXL_20260630_173706793.jpg"><img src="img/PXL_20260630_173706793.jpg" width="200"></a> | <a href="img/PXL_20260630_174823579.jpg"><img src="img/PXL_20260630_174823579.jpg" width="200"></a> | <a href="img/PXL_20260630_174914501.jpg"><img src="img/PXL_20260630_174914501.jpg" width="200"></a> |
+
+| Taobao Terminals | 3mm Al plate | Sandwitch |
+| :---: | :---: | :---: |
+| <a href="img/PXL_20260630_174748971.jpg"><img src="img/PXL_20260630_174748971.jpg" width="200"></a> | <a href="img/PXL_20260630_174942511.jpg"><img src="img/PXL_20260630_174942511.jpg" width="200"></a> | <a href="img/PXL_20260630_174914501.jpg"><img src="img/PXL_20260630_174914501.jpg" width="200"></a> |
+
+</div>
+
+---
+
