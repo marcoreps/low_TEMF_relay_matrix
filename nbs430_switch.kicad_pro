@@ -553,10 +553,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/reps/.var/app/com.usebottles.bottles/data/bottles/bottles/lumos/drive_c",
+      "plot": "/home/reps/Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Downloads/nbs430_switch2.step",
       "svg": "",
       "vrml": ""
     },
@@ -784,7 +784,7 @@
         "uuid": "67278e47-c0bc-4977-9a5a-04c7b0d8a034"
       }
     ],
-    "used_designators": "SYM2-3,TP1-5,K1-160,#SYM1,H1-40,D49-208",
+    "used_designators": "D49-208,H1-40,#SYM1,K1-160,TP1-5,SYM2-3",
     "variants": []
   },
   "sheets": [

@@ -7,10 +7,11 @@ A low-thermal EMF relay matrix board designed for **automated 4-wire resistance 
 ## Changelog
 
 ### Version 0.5
-* **Improved Grounding:** Exposed GND copper plane around a mounting hole for convenient shield/enclosure chassis connection
-* **Optimized Trace Resistance:** Criss-cross pattern on layers 2,3 instead of identical traces to minimize path resistance
+* Exposed GND copper plane around a mounting hole for convenient shield/enclosure chassis connection
+* Criss-cross pattern on layers 2,3 instead of identical traces to minimize path resistance
 
 ### Version 0.4
+* Symmetric annotations
 * Added test points connected directly to the four buses
 * Added silkscreen logos
 
@@ -34,12 +35,12 @@ A low-thermal EMF relay matrix board designed for **automated 4-wire resistance 
 | <a href="img/3d_viewer.png"><img src="img/3d_viewer.png" width="300"></a> | <a href="img/concept_documentation.png"><img src="img/concept_documentation.png" width="300"></a> |
 
 ### Schematics
-| Relay Driver | Relay Block | Test Results |
-| :---: | :---: | :---: |
+| Relay Driver | Relay Block |
+| :---: | :---: |
 | <a href="img/drivers.png"><img src="img/drivers.png" width="200"></a> | <a href="img/relay_block.png"><img src="img/relay_block.png" width="200"></a> |
 
 ### Performance
-| Test Results |
+| Test Results of 0.4|
 | :---: |
 | <a href="img/benchmark.png"><img src="img/benchmark.png" width="200"></a> |
 
